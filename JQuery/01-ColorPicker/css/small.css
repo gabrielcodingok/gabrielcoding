@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+p{
+    margin:0;
+    padding:0;
+}
+
+main section {
+    padding: 10px;
+    display: block;
+}
+
+main section h2 {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+main section div.col p{
+    letter-spacing: .1em;
+    transition: text-shadow .3s;
+    color:whitesmoke;
+}
+main section div.col p:hover{
+    font-weight:bold;
+    text-shadow: 0 0 .9px rgb(255, 255, 255), 0 0 .9px rgb(255, 255, 255), 0 0 .9px rgb(255, 255, 255);
+}
+footer {
+    background: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #3a3a3a;
+}
+#Div{
+    background-color:#c3c3c3;
+    font-size:16px;
+    height:50vh;
+    border:5px solid #000;
+}
+.color{
+    display:block;
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    cursor:pointer;
+    border:3px solid white;
+}
+#colorInputColor{
+    visibility: hidden;
+    position: absolute;
+    width:50px;
+    height:50px;
+}

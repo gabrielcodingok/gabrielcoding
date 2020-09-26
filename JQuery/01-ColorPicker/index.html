@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <meta name="description" content="Color Picker in JQuery">
+  <title>Color Picker in JQuery</title>
+  
+  <link rel="shortcut icon" href="favicon.ico">
+  
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/small.css">
+  <link rel="stylesheet" type="text/css" href="css/medium.css">
+  <link rel="stylesheet" type="text/css" href="css/large.css">
+  
+</head>
+<body>
+  <header class="w-100 text-center m-auto p-3 bg-primary">
+    <img src="https://i.imgur.com/RZdS3W0.png">
+  </header>
+  <main class="container text-center">
+    <section class="row">
+      <form class="col-sm-5 m-auto border border-info rounded bg-primary text-white">
+        <h5 class="m-auto p-3 text-white">Color Picker in JQuery</h5>
+        <fieldset>
+          <div class="form-group p-1 w-100">
+              <div class="row">
+                  <div class="col-10 m-0 p-0 pb-2">
+                    <input type="text" class="form-control border-0" id="colorInputText" placeholder="#2f4f4f" required>
+                  </div>
+                  <div class="col-2 m-0 p-0 pl-2">
+                    <label class="colorPicker">
+                      <input type="color" id="colorInputColor" class="">
+                      <span class="color"></span>
+                    </label>
+                  </div>
+                  <button id ="DivChangeBGColor" type="button" class="btn btn-info w-100">Change First Div Background Color</button> 
+                  <button type="button" class="btn btn-primary w-100" id="DivResetBGColor">Reset</button> 
+                </div>
+          </div> 
+          </fieldset>
+      </form>
+    </section>    
+    <section class="row">
+      <div class="col" id="Div">
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Gabriel Coding</p>
+  </footer>
+  <script defer src="js/jquery.min.js"></script>
+  <script defer src="js/bootstrap.min.js"></script>
+  <script defer src="js/colorpicker.js"></script>
+</body>
+</html>
